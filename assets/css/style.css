@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Poppins:wght@500&family=Roboto&display=swap');
+*{
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+.container {
+    margin-bottom: -8px;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-top: -8px;
+    padding: 10px;
+    background-color: #845EC2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+body{
+    background-color: #2C73D2;
+}
+
+a{
+    margin-right: 15px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+
+
+    
+}
+
+img{
+    border: 5.5px solid #2C73D2;
+    width: 50px;
+    border-radius: 2rem;
+}
+
+
+.links{
+    text-align: center;
+    background-color: #2C73D2;
+    padding: 5px;
+    margin-left: -5px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+hr{
+    margin-right: -8px;
+    margin-left: -8px;
+}
