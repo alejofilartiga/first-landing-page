@@ -39,7 +39,7 @@
     }
 
     #hero{
-        width: 400px;
+        width: 300px;
     }
 
     #hero img{
@@ -60,27 +60,38 @@
         width: 300px;
     }
 
+    .about-info h2{
+        font-size: 30px;
+        padding: 0;
+    }
+
+    .about-info p{
+        font-size: 15px;
+    }
+
     #jobs h2{
+        font-size: 30px;
     }
 
     #jobs p{
-        width: 450px;
-        font-size: 20px;
+        width: 400px;
+        font-size: 15px;
         text-align: center;
+
     }
 
     .card{
-        width: 400px;
+        width: 300px;
         text-align: center;
     }
 
     #contact{
-        width: 400px;
+        width: 300px;
         justify-content: center;
         align-items: center;
         position: relative;
-        left: 10%;
-        right: 10%;
+        left: 15%;
+        right: 15%;
         overflow: hidden;
     }
 
@@ -99,7 +110,15 @@
     }
 
     .item-message{
+        flex-wrap: wrap;
         margin-top: -35px;
+    }
+
+
+
+    .item-message input{
+        width: 300px;
+        margin: 10px;
     }
 
     #contact>img{
