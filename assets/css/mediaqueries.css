@@ -76,7 +76,7 @@
     }
 
     #jobs p{
-        width: 400px;
+        width: 300px;
         font-size: 15px;
         text-align: center;
 
@@ -125,6 +125,12 @@
 
     #contact>img{
         width: 300px;
+    }
+
+    footer{
+        justify-content: space-between;
+        
+        padding: 0 10px;
     }
 
 }
