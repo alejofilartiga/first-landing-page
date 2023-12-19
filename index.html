@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/mediaqueries.css">
     <title>Portafolio de Alejo Filártiga</title>
 </head>
 <body>
     <header>
         <nav>
-            <img src="./assets/img/persona-icon.jpg" alt="Foto 4x4 de Alejo Filartiga">
+            <img src="./assets/img/persona-icon.jpg">
+            <label class="menu-label" for="menu-toggle">
+                <img src="./assets/img/menu.png" alt="">
+            </label>
+            <input type="checkbox" id="menu-toggle">
             <li class="nav-btn">
                 <ul><a href="#">Inicio</a></ul>
                 <ul><a href="#">Sobre Mí</a></ul>
+                <!-- <ul><a href="#">Experiencia</a></ul> -->
                 <ul><a href="#">Trabajos</a></ul>
                 <ul><a href="#">Contacto</a></ul>
             </li>
+            
         </nav>
+        
         <hr>
     </header>
     <main>
@@ -29,7 +37,7 @@
                     <a href="#" >Sobre Mí</a>
                 </div>
             </div>
-            <img src="./assets/img/Foto CV.jpg" alt="">
+            <img src="./assets/img/Foto CV.jpg" alt="Foto 4x4 de Alejo Filartiga">
         </section>
         <hr>
         <section id="about">
@@ -42,6 +50,69 @@
             </div>
         </section>
         <hr>
+        <section id="jobs">
+            <h2>Mis Trabajos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolores neque aliquid aliquam at necessitatibus velit fugit laborum! Libero, itaque?</p>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="https://placehold.co/300x200" alt="">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, dolores.</span>
+                </div>
+                <div class="card">
+                    <img src="https://placehold.co/300x200" alt="">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, dolores.</span>
+                </div>
+                <div class="card">
+                    <img src="https://placehold.co/300x200" alt="">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, dolores.</span>
+                </div>
+                <div class="card">
+                    <img src="https://placehold.co/300x200" alt="">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, dolores.</span>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="contact">
+            <div class="contact-container">
+                <h2>Contactame</h2>
+                <div class="item-container">
+                    <div class="item-info">
+                        <h3>Alejo Filartiga</h3>
+                        <li>Villa Luro, CABA</li>
+                        <li>1131219452</li>
+                        <li>alejofilartiga@gmail.com</li>
+                    </div>
+                    <div class="item-message">
+                        <form>
+                            <label for="name"></label>
+                            <input type="text" id="name" placeholder="Nombre">
+                            <label for="email"></label>
+                            <input type="email" placeholder="Email" id="email">
+                        </form>
+                        <textarea name="mensaje" id="mesagge" cols="49" rows="5" placeholder="Comentarios"></textarea>
+                        <button>Enviar</button>
+                    </div>
+                </div>
+                <div class="rrss">
+                    <img src="https://placehold.co/20x20" alt="">
+                    <img src="https://placehold.co/20x20" alt="">
+                    <img src="https://placehold.co/20x20" alt="">
+                    <img src="https://placehold.co/20x20" alt="">
+                </div>
+            </div>
+            <img src="https://placehold.co/600x500" alt="">
+        </section>
+        <hr>
     </main>
+    <footer>
+        <img src="https://placehold.co/50x50" alt="">
+        <span>&copy; 2023 Alejo Filartiga</span>
+        <span>Hecho con ❤️</span>
+    </footer>
 </body>
 </html>

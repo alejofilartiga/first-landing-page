@@ -1,0 +1,110 @@
+@media (max-width: 576px){
+    
+    header{
+        top: 0;
+        z-index: 2;
+    }
+
+    nav{
+        justify-content: space-between;
+        padding: 0 20px;
+        height: 50px;
+    }
+
+    .nav-btn{
+        position: absolute;
+        top: 52px;
+        flex-direction: column;
+        right: 5%;
+        left: 5%;
+        background-color: dodgerblue;
+        border-radius: 0 0 10px 10px;
+        gap: 20px;
+        padding: 10px;
+        border: 3px solid white;
+        align-items: flex-start;
+        z-index: 2;
+        width: 90%;
+        display: none;
+    }
+
+    .menu-label{
+        display: flex;
+        cursor: pointer;
+        order: 2;
+    }
+
+    #menu-toggle:checked +.nav-btn{
+        display: flex;
+        z-index: 2;
+    }
+
+    #hero{
+        width: 400px;
+    }
+
+    #hero img{
+        display: none;
+    }
+
+    .hero-info{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-info h1{
+        text-align: center;
+    }
+
+    .hero-info p{
+        text-align: center;
+        width: 300px;
+    }
+
+    #jobs h2{
+    }
+
+    #jobs p{
+        width: 450px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .card{
+        width: 400px;
+        text-align: center;
+    }
+
+    #contact{
+        width: 400px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 10%;
+        right: 10%;
+        overflow: hidden;
+    }
+
+    .contact-container{
+        text-align: center;
+        
+    }
+
+    .item-container{
+        flex-wrap: wrap;
+    }
+
+    .item-info{
+        justify-content: flex-start;
+        text-align: start;
+    }
+
+    .item-message{
+        margin-top: -35px;
+    }
+
+    #contact>img{
+        width: 300px;
+    }
+
+}
