@@ -61,6 +61,7 @@
     }
 
     .about-info h2{
+        width: 300px;
         font-size: 30px;
         padding: 0;
     }
@@ -71,6 +72,7 @@
 
     #jobs h2{
         font-size: 30px;
+        width: 300px;
     }
 
     #jobs p{
