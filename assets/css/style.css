@@ -106,7 +106,6 @@ main{
 
 .hero-btn{
     margin-top: 20px;
-    
     flex-wrap: wrap;
 }
 
@@ -208,6 +207,13 @@ main{
     font-size: 30px;
     font-weight: 800;
     color: white;
+    text-align: center;
+}
+
+.card img{
+
+    height: 200px;
+    border-radius: 10px;
 }
 
 .card span{
@@ -227,6 +233,11 @@ main{
     justify-content: center;
     align-items: center;
     gap: 40px;
+}
+
+#contact>img{
+    width: 400px;
+    border-radius: 20px;
 }
 
 #contact h2{
@@ -298,6 +309,10 @@ main{
 
 }
 
+.rrss img{
+    width: 30px;
+}
+
 
 /* Footer */
 
@@ -311,5 +326,6 @@ footer{
 }
 
 footer img{
-    margin: 10px 0
+    margin: 10px;
+    width: 30px;
 }
