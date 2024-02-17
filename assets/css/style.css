@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 :root{
     
     --bg-color: #2C73D2;
@@ -211,7 +214,7 @@ main{
 }
 
 .card img{
-
+    max-width: 400px;
     height: 200px;
     border-radius: 10px;
 }
